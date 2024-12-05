@@ -76,292 +76,6 @@ table {
   --transition: 0.15s cubic-bezier(0.33, 1, 0.68, 1)
 }
 
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/family-regular.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: italic;
-  font-weight: 400;
-  src: url("./fonts/family-italic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: normal;
-  font-weight: 500;
-  src: url("./fonts/family-medium.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: italic;
-  font-weight: 500;
-  src: url("./fonts/family-medium-italic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: normal;
-  font-weight: 700;
-  src: url("./fonts/family-bold.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: italic;
-  font-weight: 700;
-  src: url("./fonts/family-bold-italic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: normal;
-  font-weight: 800;
-  src: url("./fonts/family-heavy.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: italic;
-  font-weight: 800;
-  src: url("./fonts/family-heavy-italic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: normal;
-  font-weight: 900;
-  src: url("./fonts/family-black.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Family";
-  font-style: italic;
-  font-weight: 900;
-  src: url("./fonts/family-black-italic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/Inter-Regular.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 400;
-  src: url("./fonts/Inter-Italic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  src: url("./fonts/Inter-Medium.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 500;
-  src: url("./fonts/Inter-MediumItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  src: url("./fonts/Inter-SemiBold.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 600;
-  src: url("./fonts/Inter-SemiBoldItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  src: url("./fonts/Inter-Bold.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 700;
-  src: url("./fonts/Inter-BoldItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
-  src: url("./fonts/Inter-ExtraBold.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 800;
-  src: url("./fonts/Inter-ExtraBoldItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  src: url("./fonts/Inter-Black.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 900;
-  src: url("./fonts/Inter-BlackItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/InterDisplay-Regular.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: italic;
-  font-weight: 400;
-  src: url("./fonts/InterDisplay-Italic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: normal;
-  font-weight: 500;
-  src: url("./fonts/InterDisplay-Medium.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: italic;
-  font-weight: 500;
-  src: url("./fonts/InterDisplay-MediumItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: normal;
-  font-weight: 600;
-  src: url("./fonts/InterDisplay-SemiBold.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: italic;
-  font-weight: 600;
-  src: url("./fonts/InterDisplay-SemiBoldItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: normal;
-  font-weight: 700;
-  src: url("./fonts/InterDisplay-Bold.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: italic;
-  font-weight: 700;
-  src: url("./fonts/InterDisplay-BoldItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: normal;
-  font-weight: 800;
-  src: url("./fonts/InterDisplay-ExtraBold.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: italic;
-  font-weight: 800;
-  src: url("./fonts/InterDisplay-ExtraBoldItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: normal;
-  font-weight: 900;
-  src: url("./fonts/InterDisplay-Black.woff2") format("woff2")
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter Display";
-  font-style: italic;
-  font-weight: 900;
-  src: url("./fonts/InterDisplay-BlackItalic.woff2") format("woff2")
-}
-
-@font-face {
-  font-family: "Cascadia Code";
-  font-style: normal;
-  font-weight: 300;
-  src: url("./fonts/CascadiaCode-SemiLight.woff2") format("woff2")
-}
-
-@font-face {
-  font-family: "Cascadia Code";
-  font-style: italic;
-  font-weight: 300;
-  src: url("./fonts/CascadiaCode-SemiLightItalic.woff2") format("woff2")
-}
-
 html {
   background: var(--color-grey-dark);
   font-size: 16px;
@@ -379,7 +93,7 @@ body {
   color: var(--color-grey-lighter);
   display: flex;
   flex-direction: column;
-  font-family: "Family",Serif;
+  font-family: "Inter",Serif;
   font-feature-settings: "liga","dlig";
   font-size: var(--font-size);
   -webkit-font-smoothing: antialiased;
@@ -471,6 +185,113 @@ code {
   font-size: 85%;
   line-height: 1.1;
   padding: .2em .3em .15em .3em
+}
+
+.uppercase {
+  font-feature-settings: "case","liga","dlig";
+  letter-spacing: normal
+}
+
+.button {
+  background: var(--color-white);
+  border-radius: .2em;
+  box-shadow: 0 0 0 1px rgba(var(--rgb-blue-dark), 0.05),0 1px 0 0 rgba(var(--rgb-blue-dark), 0.05);
+  color: var(--color-blue);
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 700;
+  line-height: 1em;
+  padding: .25em 1.3em;
+  text-decoration: none;
+  transition: color var(--transition);
+  white-space: nowrap
+}
+
+.image {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.image+.image {
+  --spacing: 1.175em
+}
+
+.image figure {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: .7em;
+  justify-content: center;
+  margin-bottom: .3125em;
+  margin-top: .3125em
+}
+
+.image figure img {
+  border-radius: .2em;
+  box-shadow: 0 0 0 1px rgba(var(--rgb-black), 0.1),0 .1em 2.8em -0.8em rgba(var(--rgb-black), 0.1),0 .2em 3.2em -1.2em rgba(var(--rgb-black), 0.2),0 .4em 2em -1.2em rgba(var(--rgb-black), 0.3),0 .6em 2.4em -1.6em rgba(var(--rgb-black), 0.4),0 .8em 2.8em -2em rgba(var(--rgb-black), 0.5);
+  overflow: hidden;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none
+}
+
+.image figure img:hover {
+  cursor: zoom-in
+}
+
+.image figure figcaption {
+  color: var(--color-blue-light);
+  font-family: "Inter",Sans-Serif;
+  font-feature-settings: "liga","dlig","ss03"
+}
+
+.image figure figcaption p {
+  font-size: 50%;
+  letter-spacing: normal;
+  margin-bottom: -0.2475em
+}
+
+.image--no-border figure img {
+  border-radius: initial;
+  box-shadow: none;
+  filter: drop-shadow(0 0.5em 0.7em rgba(var(--rgb-black), 0.3))
+}
+
+.image.image-zoom-active {
+  background: rgba(var(--rgb-blue), 0.96);
+  height: 100%;
+  left: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 102
+}
+
+.image.image-zoom-active figure {
+  margin: .5em;
+  max-width: 45em
+}
+
+.image.image-zoom-active figure img:hover {
+  cursor: zoom-out
+}
+
+.image.image-zoom-active figure figcaption {
+  display: none
+}
+
+@media(min-width: 64em) {
+  .image figure {
+      margin-left:-2em;
+      margin-right: -2em
+  }
+
+  .image.image-zoom-active figure {
+      margin: 0 1.5em
+  }
 }
 
 .legal {
@@ -589,7 +410,7 @@ code {
 .nav__logo a span {
   color: var(--color-grey-lighter);
   display: block;
-  font-family: "Inter Display",Sans-Serif;
+  font-family: "Inter",Sans-Serif;
   font-feature-settings: "case","cpsp","ss03";
   font-size: 50%;
   font-weight: 700;
@@ -617,7 +438,7 @@ code {
 
 .page__content h3,.page__content h4 {
   color: var(--color-grey-lighter);
-  font-family: "Inter Display",Sans-Serif;
+  font-family: "Inter",Sans-Serif;
   font-feature-settings: "liga","dlig","ss03";
   letter-spacing: normal
 }
@@ -723,4 +544,48 @@ code {
   .page__content ol li:before,.page__content ul li:before {
       left: -1.8em
   }
+}
+
+.accordion-item {
+  margin-bottom: 5px;
+}
+
+.accordion-header {
+  background-color: #150b24;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  border: 1px solid rgb(252, 238, 10);
+  border-radius: 4px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.accordion-header:hover {
+  background-color: #1f1235;
+}
+
+.accordion-content {
+  padding: 0 18px;
+  background-color: #150b24;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-left: 1px solid rgb(252, 238, 10);
+  border-right: 1px solid rgb(252, 238, 10);
+  border-bottom: 1px solid rgb(252, 238, 10);
+  border-radius: 0 0 4px 4px;
+}
+
+.accordion-content p {
+  margin: 0;
+  padding: 18px 0;
+}
+
+.active {
+  background-color: #1f1235;
 }
